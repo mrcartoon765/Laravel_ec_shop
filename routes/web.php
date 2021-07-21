@@ -1,8 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\ComponentTestController;
 use App\Http\Controllers\LifeCycleTestController;
+=======
+>>>>>>> origin/main
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +20,7 @@ use App\Http\Controllers\LifeCycleTestController;
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< HEAD
 });
 
 Route::get('/dashboard', function () {
@@ -30,3 +34,6 @@ Route::get('/servicecontainertest', [LifeCycleTestController::class, 'showServic
 
 
 require __DIR__.'/auth.php';
+=======
+});
+>>>>>>> origin/main
