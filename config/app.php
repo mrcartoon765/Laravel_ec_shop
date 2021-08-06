@@ -67,11 +67,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'timezone' => 'Asia/Tokyo',
-=======
-    'timezone' => 'UTC',
->>>>>>> origin/main
 
     /*
     |--------------------------------------------------------------------------
@@ -84,11 +80,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'locale' => 'ja',
-=======
-    'locale' => 'en',
->>>>>>> origin/main
 
     /*
     |--------------------------------------------------------------------------
@@ -182,7 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\SampleServiceProvider::class
     ],
 
     /*
@@ -239,8 +231,4 @@ return [
 
     ],
 
-<<<<<<< HEAD
 ];
-=======
-];
->>>>>>> origin/main
